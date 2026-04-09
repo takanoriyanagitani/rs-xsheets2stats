@@ -3,7 +3,17 @@ name = "rs-xsheets2stats"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the stats of the sheets of the book."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-xsheets2stats"
+homepage = "https://github.com/takanoriyanagitani/rs-xsheets2stats"
+documentation = "https://docs.rs/rs-xsheets2stats/latest"
+keywords = ["xlsx", "stat", "count", "rows", "cells"]
+
 exclude = [
+    "rs-xsheets2stats.wasm",
+    "opt.wasm",
+    "sample.d/input.xlsx",
 ]
 
 [lints.rust]
